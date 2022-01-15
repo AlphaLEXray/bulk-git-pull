@@ -3,7 +3,7 @@ read -p 'Please enter the path to the directory where you want to apply the scri
 if [ -z $dirvar ]
 then
 	echo
-	for i in $(ls -d */)
+	for i in $(ls -d */) #based on point 4 of the answer by Albert, edited by Iulian Onofrei, to this question: https://stackoverflow.com/questions/14352290/listing-only-directories-using-ls-in-bash
 	do
 		cd ${i%%/}
 		if [ -d .git/ ]
