@@ -13,6 +13,7 @@ You must have Git installed, but that is probably the case.
 
 # Usage
 **Instructions for advanced users**
+
 Clone the repo, move the script to the parent folder where you keep all your repos in, execute the script.
 
 **Instructions for beginners**
